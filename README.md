@@ -2,6 +2,7 @@
 ABSTRACT –
 In this paper, I have worked on the Amazon cellphone and accessories reviews Dataset and have performed Exploratory Data Analysis, Topic Modelling to get a few insights. The main objective of this paper is to predict the ratings of the product from the text of the given review using TF-IF vectorization, Multinomial NB classifier. Further I experimented by remodeling it as a classification problem in which I tried classifying the reviews into sentiments which mocks the overall columns.
  
+
 INTRODUCTION – 
 
 Using an existing dataset of cell phones and accessories reviews on amazon here you can see .json zip file which I unzipped which contains 1128437 rows × 12 columns of cell phone reviews and my task was to perform the necessary transformations to train both regression and classification models to predict the 'overall' field in the data set. Which you’ll see I will change it into sentiment. 
